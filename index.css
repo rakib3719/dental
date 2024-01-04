@@ -1,0 +1,182 @@
+*{
+
+
+    margin: 0;
+    padding: 0;
+}
+
+
+.head-color{
+
+    background-color: rgb(176 149 149);
+    padding: 20px 64px;
+}
+.header {
+    display: flex;
+    width: 80%;
+    margin: auto;
+ 
+}
+.menu{}
+.menu-right{}
+.menu ul{
+
+
+}
+.menu ul li{
+
+display: inline-block;
+
+}
+.menu ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #1d2d02;
+    padding: 2px 16px;
+    font-size: 20px;
+}
+
+.menu ul li a:hover{
+
+    color: blue;
+    transition: .5s;
+}
+
+.menu-right{
+
+    margin-left: 40px;
+}
+.menu-right a {
+    text-decoration: none;
+    color: white;
+    background-color: blueviolet;
+    padding: 19px  20px 24px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.menu-right a:hover{
+
+    color: white;
+    background-color: rgb(12, 31, 87);
+    padding: 19px  20px 24px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    transition: .5s;
+
+}
+
+
+.cover{
+
+    background-image: url("./image/cover.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.cover-content {
+    text-align: center;
+    padding-top: 150px;
+    padding-left: 136px;
+}
+
+.cover-content h1{
+
+}
+.cover-content .p{
+
+
+
+}
+
+.btn-1 {
+    background-color: blueviolet;
+    padding: 11px 16px;
+    color: white;
+
+    margin-top: 10px;
+}
+.btn-2{
+
+    background-color: white;
+    padding: 11px 16px;
+    color: blueviolet;
+
+}
+
+.btn-1:hover{
+
+    color: white;
+    background-color: rgb(12, 31, 87);
+    transition: .5s;
+}
+.btn-2:hover:hover{
+    color: white;
+    background-color: rgb(12, 31, 87);
+    transition: .5s;
+}
+
+
+/* service */
+
+.service{
+
+    display: flex;
+}
+
+.service-left{
+background-color: blueviolet;
+width: 50%;
+height: 500px;
+
+}
+
+
+.service-right{
+
+    background-color: white;
+    width: 50%;
+    height: 500px;
+
+}
+
+.service-left-content{
+
+width: 90%;
+margin-left: auto;
+color: white;
+margin-top: 50px;
+
+}
+
+input{}
+input {
+    padding: 10px 10px;
+    border-radius: 7px;
+}
+
+.service-right-content{
+
+
+width: 90%;
+margin-left: auto;
+margin-top: 100px;
+
+}
+
+.icon{
+
+    height: 30px;
+    width: 30px;
+
+}
+
+.box {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 26px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
